@@ -1,0 +1,5 @@
+python-webassets source: file-without-copyright-information
+python-webassets source: no-debian-changes
+python-webassets source: source-contains-prebuilt-windows-binary
+python-webassets source: source-is-missing
+python-webassets source: source-package-encodes-python-version
