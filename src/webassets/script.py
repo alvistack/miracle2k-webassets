@@ -447,7 +447,7 @@ class GenericArgparseImplementation(object):
 
         # Add subparsers.
         subparsers = parser.add_subparsers(dest='command')
-        for command in CommandLineEnvironment.DefaultCommands.keys():
+        for command in sorted(CommandLineEnvironment.DefaultCommands.keys()):
             command_parser = subparsers.add_parser(command)
             maker = getattr(self, 'make_%s_parser' % command, False)
             if maker:

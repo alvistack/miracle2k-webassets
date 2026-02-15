@@ -1,0 +1,4 @@
+python3-webassets: copyright-without-copyright-notice
+python3-webassets: initial-upload-closes-no-bugs
+python3-webassets: no-manual-page
+python3-webassets: zero-byte-file-in-doc-directory
